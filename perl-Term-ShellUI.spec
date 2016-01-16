@@ -54,6 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/Term/*.pm
+%dir %{perl_vendorlib}/Text/Shellwords
 %{perl_vendorlib}/Text/Shellwords/Cursor.pm
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
