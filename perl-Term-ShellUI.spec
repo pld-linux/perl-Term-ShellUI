@@ -20,12 +20,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Term::ShellUI uses the history and autocompletion features of Term::ReadLine
-to present a sophisticated command-line interface to the user.  It tries to
-make every feature that one would expect to see in a fully interactive shell
-trivial to implement.
-You simply declare your command set and let ShellUI take
-care of the heavy lifting.
+Term::ShellUI uses the history and autocompletion features of
+Term::ReadLine to present a sophisticated command-line interface to
+the user. It tries to make every feature that one would expect to see
+in a fully interactive shell trivial to implement. You simply declare
+your command set and let ShellUI take care of the heavy lifting.
 
 This module was previously called Term::GDBUI.
 
