@@ -4,7 +4,6 @@
 #
 %define		pdir	Term
 %define		pnam	ShellUI
-%include	/usr/lib/rpm/macros.perl
 Summary:	Term::ShellUI - A fully-featured shell-like command line environment
 Name:		perl-Term-ShellUI
 Version:	0.92
